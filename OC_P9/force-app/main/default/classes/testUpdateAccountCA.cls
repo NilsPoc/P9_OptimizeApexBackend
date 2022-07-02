@@ -15,6 +15,7 @@ private class testUpdateAccountCA {
             IsActive = true
         );
         Insert pbe;
+        
 
         Order o1 = new Order(AccountId = acc1.Id);
         insert o1;
