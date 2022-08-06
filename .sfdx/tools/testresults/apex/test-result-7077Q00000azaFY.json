@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 3,
+    "passing": 3,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Sat Jul 30 2022 11:16:32",
+    "testExecutionTimeInMs": 708,
+    "testTotalTimeInMs": 708,
+    "commandTimeInMs": 472,
+    "hostname": "https://ocproject-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000910BFUAY",
+    "username": "ocprojet9@np.com",
+    "testRunId": "7077Q00000azaFY",
+    "userId": "0057Q000005TV0kQAG"
+  },
+  "tests": [
+    {
+      "id": "07M7Q0000002a1FUAQ",
+      "queueItemId": "7097Q0000004gTsQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000azaFYQAY",
+      "methodName": "calculateOrderNetAmountNegativTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 172,
+      "testTimestamp": "2022-07-30T09:16:33.000+0000",
+      "fullName": "OrderHandlerTest.calculateOrderNetAmountNegativTest"
+    },
+    {
+      "id": "07M7Q0000002a1GUAQ",
+      "queueItemId": "7097Q0000004gTsQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000azaFYQAY",
+      "methodName": "calculateOrderNetAmountTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 105,
+      "testTimestamp": "2022-07-30T09:16:33.000+0000",
+      "fullName": "OrderHandlerTest.calculateOrderNetAmountTest"
+    },
+    {
+      "id": "07M7Q0000002a1HUAQ",
+      "queueItemId": "7097Q0000004gTsQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000azaFYQAY",
+      "methodName": "updateAccountTurnoverTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 431,
+      "testTimestamp": "2022-07-30T09:16:33.000+0000",
+      "fullName": "OrderHandlerTest.updateAccountTurnoverTest"
+    }
+  ]
+}

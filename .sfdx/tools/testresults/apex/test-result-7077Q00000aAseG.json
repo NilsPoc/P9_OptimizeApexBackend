@@ -1,0 +1,96 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 1,
+    "failing": 2,
+    "skipped": 0,
+    "passRate": "33%",
+    "failRate": "67%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jul 26 2022 16:16:44",
+    "testExecutionTimeInMs": 742,
+    "testTotalTimeInMs": 742,
+    "commandTimeInMs": 193,
+    "hostname": "https://ocproject-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000910BFUAY",
+    "username": "ocprojet9@np.com",
+    "testRunId": "7077Q00000aAseG",
+    "userId": "0057Q000005TV0kQAG"
+  },
+  "tests": [
+    {
+      "id": "07M7Q0000002TW6UAM",
+      "queueItemId": "7097Q0000004gFyQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000aAseGQAS",
+      "methodName": "calculateOrderNetAmountNegativTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 135,
+      "testTimestamp": "2022-07-26T14:17:14.000+0000",
+      "fullName": "OrderHandlerTest.calculateOrderNetAmountNegativTest"
+    },
+    {
+      "id": "07M7Q0000002TW7UAM",
+      "queueItemId": "7097Q0000004gFyQAI",
+      "stackTrace": "Class.OrderHandlerTest.calculateOrderNetAmountTest: line 38, column 1",
+      "message": "System.AssertException: Assertion Failed: Net order is equal to 1300, test ok",
+      "asyncApexJobId": "7077Q00000aAseGQAS",
+      "methodName": "calculateOrderNetAmountTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 150,
+      "testTimestamp": "2022-07-26T14:17:15.000+0000",
+      "fullName": "OrderHandlerTest.calculateOrderNetAmountTest",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Net order is equal to 1300, test ok",
+        "exceptionStackTrace": "Class.OrderHandlerTest.calculateOrderNetAmountTest: line 38, column 1",
+        "className": "OrderHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 38,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M7Q0000002TW8UAM",
+      "queueItemId": "7097Q0000004gFyQAI",
+      "stackTrace": "Class.OrderHandlerTest.updateAccountTurnoverTest: line 70, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7077Q00000aAseGQAS",
+      "methodName": "updateAccountTurnoverTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 457,
+      "testTimestamp": "2022-07-26T14:17:15.000+0000",
+      "fullName": "OrderHandlerTest.updateAccountTurnoverTest",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.OrderHandlerTest.updateAccountTurnoverTest: line 70, column 1",
+        "className": "OrderHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 70,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

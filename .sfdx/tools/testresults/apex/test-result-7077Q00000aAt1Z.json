@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 3,
+    "passing": 2,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "67%",
+    "failRate": "33%",
+    "skipRate": "0%",
+    "testStartTime": "Tue Jul 26 2022 16:20:57",
+    "testExecutionTimeInMs": 633,
+    "testTotalTimeInMs": 633,
+    "commandTimeInMs": 141,
+    "hostname": "https://ocproject-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000910BFUAY",
+    "username": "ocprojet9@np.com",
+    "testRunId": "7077Q00000aAt1Z",
+    "userId": "0057Q000005TV0kQAG"
+  },
+  "tests": [
+    {
+      "id": "07M7Q0000002TWHUA2",
+      "queueItemId": "7097Q0000004gG8QAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000aAt1ZQAS",
+      "methodName": "calculateOrderNetAmountTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 168,
+      "testTimestamp": "2022-07-26T14:20:58.000+0000",
+      "fullName": "OrderHandlerTest.calculateOrderNetAmountTest"
+    },
+    {
+      "id": "07M7Q0000002TWIUA2",
+      "queueItemId": "7097Q0000004gG8QAI",
+      "stackTrace": "Class.OrderHandlerTest.updateAccountTurnoverTest: line 70, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7077Q00000aAt1ZQAS",
+      "methodName": "updateAccountTurnoverTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 345,
+      "testTimestamp": "2022-07-26T14:20:59.000+0000",
+      "fullName": "OrderHandlerTest.updateAccountTurnoverTest",
+      "diagnostic": {
+        "exceptionMessage": "System.QueryException: List has no rows for assignment to SObject",
+        "exceptionStackTrace": "Class.OrderHandlerTest.updateAccountTurnoverTest: line 70, column 1",
+        "className": "OrderHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 70,
+        "columnNumber": 1
+      }
+    },
+    {
+      "id": "07M7Q0000002TWGUA2",
+      "queueItemId": "7097Q0000004gG8QAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000aAt1ZQAS",
+      "methodName": "calculateOrderNetAmountNegativTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000Kie9NQAR",
+        "name": "OrderHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "OrderHandlerTest"
+      },
+      "runTime": 120,
+      "testTimestamp": "2022-07-26T14:20:58.000+0000",
+      "fullName": "OrderHandlerTest.calculateOrderNetAmountNegativTest"
+    }
+  ]
+}

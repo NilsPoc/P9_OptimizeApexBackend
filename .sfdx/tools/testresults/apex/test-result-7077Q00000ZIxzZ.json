@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "outcome": "Skipped",
+    "testsRan": 0,
+    "passing": 0,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Sat Jul 23 2022 12:05:12",
+    "testExecutionTimeInMs": 0,
+    "testTotalTimeInMs": 0,
+    "commandTimeInMs": 177,
+    "hostname": "https://ocproject-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000910BFUAY",
+    "username": "ocprojet9@np.com",
+    "testRunId": "7077Q00000ZIxzZ",
+    "userId": "0057Q000005TV0kQAG"
+  },
+  "tests": []
+}

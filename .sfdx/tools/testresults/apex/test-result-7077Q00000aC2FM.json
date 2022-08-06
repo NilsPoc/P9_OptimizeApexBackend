@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 1,
+    "passing": 1,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Jul 27 2022 15:27:51",
+    "testExecutionTimeInMs": 1217,
+    "testTotalTimeInMs": 1217,
+    "commandTimeInMs": 145,
+    "hostname": "https://ocproject-dev-ed.my.salesforce.com",
+    "orgId": "00D7Q00000910BFUAY",
+    "username": "ocprojet9@np.com",
+    "testRunId": "7077Q00000aC2FM",
+    "userId": "0057Q000005TV0kQAG"
+  },
+  "tests": [
+    {
+      "id": "07M7Q0000002UB9UAM",
+      "queueItemId": "7097Q0000004gIyQAI",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077Q00000aC2FMQA0",
+      "methodName": "updateAccountTurnoverTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7Q00000JUNrnQAH",
+        "name": "UpdateAccountTest",
+        "namespacePrefix": null,
+        "fullName": "UpdateAccountTest"
+      },
+      "runTime": 1217,
+      "testTimestamp": "2022-07-27T13:27:59.000+0000",
+      "fullName": "UpdateAccountTest.updateAccountTurnoverTest"
+    }
+  ]
+}
