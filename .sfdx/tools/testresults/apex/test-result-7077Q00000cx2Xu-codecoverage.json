@@ -1,0 +1,44 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "DataFactory",
+      "apexClassOrTriggerId": "01p7Q00000KiwncQAB",
+      "apexTestClassId": "01p7Q00000KlYbFQAV",
+      "apexTestMethodName": "createAccountTest",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 21,
+      "percentage": "16%",
+      "coverage": {
+        "coveredLines": [
+          4,
+          6,
+          7,
+          8
+        ],
+        "uncoveredLines": [
+          11,
+          13,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          23,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41
+        ]
+      }
+    }
+  ]
+]
