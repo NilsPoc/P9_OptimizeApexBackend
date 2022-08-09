@@ -1,5 +1,5 @@
 public with sharing class DataFactory {
-    
+     
     public static Account createAccount(String actName) {
             
             Account act = new Account();
@@ -22,7 +22,7 @@ public with sharing class DataFactory {
             return pbe;
     }
 
-    public static List<Order> createOrders (String accountId, Integer ordsNumber) {
+    public static List<Order> createOrders (String accountId, Integer ordsNumber){
             List<Order> ordsList = new List<Order>();
                 for(Integer i=0; i < ordsNumber; i++) {
                     Order ord = new Order (AccountId = accountId, Pricebook2Id = Test.getStandardPricebookId(), Status = 'Draft', EffectiveDate = Date.today()+30);
@@ -38,8 +38,5 @@ public with sharing class DataFactory {
         orderItems.add(oi1);
         }
         return orderItems;
-    }
+    }  
  }
-
-
-
